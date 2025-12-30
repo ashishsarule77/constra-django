@@ -14,3 +14,11 @@ def view_home_two(request):
 def view_company_about(request):
     resp = render(request,"constraApp/about.html")
     return resp
+
+def view_people(request):
+    resp = render(request,"constraApp/ourpeople.html")
+    return resp
+
+def view_testrimonial(request):
+    resp = render(request,"constraApp/testimonial.html")
+    return resp
