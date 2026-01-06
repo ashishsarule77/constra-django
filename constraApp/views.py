@@ -22,3 +22,8 @@ def view_people(request):
 def view_testrimonial(request):
     resp = render(request,"constraApp/testimonial.html")
     return resp
+
+
+def view_faq(request):
+    resp = render(request,"constraApp/faq.html")
+    return resp    
